@@ -11,13 +11,21 @@ Loading a floor happens during entering a building from the overworld or changin
 
 ## Sprite Values
 E8 - ID Card
+
 E9 - Chicken
+
 EA - Gas Granate
+
 EB - Shotgun Ammo
+
 EC - Darts
+
 ED - Rocket Ammo
+
 EE - Battery
+
 EF - Gas Canister
+
 
 ## Items found so far in the data, 
 

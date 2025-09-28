@@ -7,10 +7,15 @@ Items in the levels can be found in the entities files
 
 They are defined by multiple byte (13 bytes) values
 examples
+
 00 3E 00 00 00 00 00 00 00 EB 00 00 00 (Shotgun Ammo)
+
 00 3E 00 00 00 01 00 00 00 EB 00 00 00 (Shotgun Ammo with one bullet left, only works with exchanged ammo)
+
 01 48 00 00 00 00 00 00 00 00 01 00 00 (Bola Ammo)
+
 FF 2A 00 00 00 00 00 00 00 00 01 00 00 (Bola Ammo picked up)
+
 00 02 00 00 00 00 00 00 00 E8 00 10 00 (Ian Malcolm ID Card)
 
 

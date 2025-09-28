@@ -10,23 +10,25 @@ Loading a floor of a building resets all pickups, only exception are ID cards
 Loading a floor happens during entering a building from the overworld or changing the floor with a elevator
 
 ## Sprite Values
-C9 - Medikit
+00 01 - Bolas
 
-E8 - ID Card
+C9 00 - Medikit
 
-E9 - Chicken
+E8 00 - ID Card
 
-EA - Gas Granate
+E9 00 - Chicken
 
-EB - Shotgun Ammo
+EA 00 - Gas Granate
 
-EC - Darts
+EB 00 - Shotgun Ammo
 
-ED - Rocket Ammo
+EC 00 - Darts
 
-EE - Battery
+ED 00 - Rocket Ammo
 
-EF - Gas Canister
+EE 00 - Battery
+
+EF 00 - Gas Canister
 
 
 ## Items found so far in the data, 
@@ -34,16 +36,16 @@ EF - Gas Canister
 ### Raptor Pen
 
 #### Entry Level (RaptorPen_EntryLevel_Entities.bin) Offset + initial value
-- 3A4 3E Itemtype Shotgun Ammo, 3A8 00 Ammo count, 3AC EB Itemsprite Shotgun Ammo
+- 3A4 3E Itemtype Shotgun Ammo, 3A8 00 Ammo count, 3AC EB 00 Itemsprite Shotgun Ammo
 
 #### Upper Level (RaptorPen_UpperLevel_Entities.bin)
-- 226 3E Itemtype Shotgun Ammo, 22E EB Itemsprite Shotgun Ammo
-- 66E E8 Itemsprite ID Card, 670 10 ID Card Ian Malcolm
+- 226 3E Itemtype Shotgun Ammo, 22E EB 00 Itemsprite Shotgun Ammo
+- 66E E8 00 Itemsprite ID Card, 670 10 ID Card Ian Malcolm
 
 #### Ground Level (RaptorPen_GroundLevel_Entities.bin)
-- 847 00 Visibility Medikit, 848 08 Medikit Type, 850 C9 Medikit Sprite
-- 3FD 01 Visibility Bola Ammo, 3FE 48 Bola Ammo Type, 406/407 00 01 Bola Sprite
-- 1273 00 Visibility Chicken, 1274 04 Chicken Type, 127C/127D E9 00 Chicken Sprite
+- 847 00 Visibility Medikit, 848 08 Medikit Type, 850 C9 00 Medikit Sprite
+- 3FD 01 Visibility Bola Ammo, 3FE 48 Bola Ammo Type, 406 00 01 Bola Sprite
+- 1273 00 Visibility Chicken, 1274 04 Chicken Type, 127C E9 00 Chicken Sprite
 
 #### SubLevel1 (RaptorPen_SubLevel1_Entities.bin)
-- 2AF2 E8 Itemsprite ID Card, 2AF4 04 ID Card Robert Muldoon
+- 2AF2 E8 00 Itemsprite ID Card, 2AF4 04 ID Card Robert Muldoon

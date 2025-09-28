@@ -26,6 +26,7 @@ Tenth and eleven byte is the sprite of the item EB 00 is the shotgun ammo sprite
 Twelvth byte tells the game what ID card is picked up if the item is a ID card
 
 Picking up a item that is not exhchanged sets the first byte to FF the second byte to 2A
+
 FF 2A 00 00 00 00 00 00 00 EB 00 is picked up shotgun ammo 
 
 Loading a floor of a building resets all items on the floor

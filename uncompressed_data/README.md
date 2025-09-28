@@ -43,6 +43,7 @@ EF - Gas Canister
 #### Ground Level (RaptorPen_GroundLevel_Entities.bin)
 - 847 00 Visibility Medikit, 848 08 Medikit Type, 850 C9 Medikit Sprite
 - 3FD 01 Visibility Bola Ammo, 3FE 48 Bola Ammo Type, 406/407 00 01 Bola Sprite
+- 1273 00 Visibility Chicken, 1274 04 Chicken Type, 127C/127D E9 00 Chicken Sprite
 
 #### SubLevel1 (RaptorPen_SubLevel1_Entities.bin)
 - 2AF2 E8 Itemsprite ID Card, 2AF4 04 ID Card Robert Muldoon

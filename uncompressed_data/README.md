@@ -3,16 +3,54 @@ You will need to use a Hex Editor to look at the data
 
 #### Some infos on items, the bahaviour and values:
 
-Items have 2 or more values saved in the data, one value is for the item type the other value is the sprite that is used.
-Ammo has at least 3 values ammo type, sprite and ammo count, ammo count seems to be 00 initially, which gives a full stack of ammo 
-If the ammo was picked up and exchanged with a different type of ammo the ammo counter holds the amount of ammo left 
-Loading a floor of a building resets all pickups, only exception are ID cards
+Items in the levels can be found in the entities files
+
+They are defined by multiple byte (13 bytes) values
+examples
+00 3E 00 00 00 00 00 00 00 EB 00 00 00 (Shotgun Ammo)
+00 3E 00 00 00 01 00 00 00 EB 00 00 00 (Shotgun Ammo with one bullet left, only works with exchanged ammo)
+01 48 00 00 00 00 00 00 00 00 01 00 00 (Bola Ammo)
+FF 2A 00 00 00 00 00 00 00 00 01 00 00 (Bola Ammo picked up)
+00 02 00 00 00 00 00 00 00 E8 00 10 00 (Ian Malcolm ID Card)
+
+
+First byte visibility value 80 to FF is invisible, it does not remove the item its only invisible 
+Second byte is the item type it tells the game what item is picked up
+Sixth byte ammo count, 00 means full ammo pack, if ammo was exchanged this holds the value of the dropped ammo
+Tenth and eleven byte is the sprite of the item EB 00 is the shotgun ammo sprite 00 01 is the Bola ammo sprite
+Twelvth byte tells the game what ID card is picked up if the item is a ID card
+
+Picking up a item that is not exhchanged sets the first byte to FF the second byte to 2A
+FF 2A 00 00 00 00 00 00 00 EB 00 is picked up shotgun ammo 
+
+Loading a floor of a building resets all items on the floor
 Loading a floor happens during entering a building from the overworld or changing the floor with a elevator
+
+ID cards are no exception to this but they are removed from their location when the player gets close to Card location
+
+## Item Types
+2A - Empty Item
+
+04 - Chicken
+
+08 - Medikit
+
+3E - Shotgun Ammo
+
+42 - Rocket Ammo
+
+44 - NV Battery
+
+48 - Bola Ammo
+
+02 - ID Card
 
 ## Sprite Values
 00 01 - Bolas
 
 C9 00 - Medikit
+
+CC 00 - Exit Sign
 
 E8 00 - ID Card
 

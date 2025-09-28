@@ -4,7 +4,6 @@ You will need to use a Hex Editor to look at the data
 #### Some infos on items, the bahaviour and values:
 
 Items in the levels can be found in the entities files
-
 They are defined by multiple byte (13 bytes) values
 examples
 

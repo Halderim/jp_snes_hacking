@@ -36,6 +36,13 @@ EF - Gas Canister
 - 3A8 00 Ammo count
 - 3AC EB Itemsprite Shotgun Ammo
 
+#### Upper Level (RaptorPen_UpperLevel_Entities.bin)
+- 226 3E Itemtype Shotgun Ammo
+- 22E EB Itemsprite Shotgun Ammo
+
+- 66E E8 Itemsprite ID Card
+- 670 10 ID Card Ian Malcolm
+
 #### SubLevel1 (RaptorPen_SubLevel1_Entities.bin)
 - 2AF2 E8 Itemsprite ID Card
-- 2AF4 04 ID Card Donald Gennaro
+- 2AF4 04 ID Card Robert Muldoon

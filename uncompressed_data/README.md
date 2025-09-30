@@ -51,6 +51,19 @@ EE 00 - Battery
 EF 00 - Gas Canister
 
 ## Items found so far in the data
+Offset: Bytes Item Name
+
+### Beach Utility Shed 
+
+#### Ground Level (BeachUtilityShed_GroundLevel_Entities.bin)
+- 2B1: 00 02 00 00 00 00 00 00 00 E8 00 0C 00 Dennis Nedry ID Card
+
+#### Sub Level (BeachUtilityShed_SubLevel_Entities.bin)
+- 363: 00 02 00 00 00 00 00 00 00 E8 00 0A 00 Ray Arnold ID Card
+
+### Nublar Utility Shed
+#### Sub Level (NublarUtilityShed_SubLevel_Entities.bin)
+- 6FB: 00 02 00 00 00 00 00 00 00 E8 00 08 00 Donald Gennaro ID Card
 
 ### Raptor Pen
 
@@ -59,7 +72,7 @@ EF 00 - Gas Canister
 
 #### Upper Level (RaptorPen_UpperLevel_Entities.bin)
 - 226 3E Itemtype Shotgun Ammo, 22E EB 00 Itemsprite Shotgun Ammo
-- 66E E8 00 Itemsprite ID Card, 670 10 ID Card Ian Malcolm
+- 665: 00 02 00 00 00 00 00 00 00 E8 00 10 00 Ian Malcolm ID Card
 
 #### Ground Level (RaptorPen_GroundLevel_Entities.bin)
 - 847 00 Visibility Medikit, 848 08 Medikit Type, 850 C9 00 Medikit Sprite
@@ -67,4 +80,17 @@ EF 00 - Gas Canister
 - 1273 00 Visibility Chicken, 1274 04 Chicken Type, 127C E9 00 Chicken Sprite
 
 #### SubLevel1 (RaptorPen_SubLevel1_Entities.bin)
-- 2AF2 E8 00 Itemsprite ID Card, 2AF4 04 ID Card Robert Muldoon
+- 2AE9: 00 02 00 00 00 00 00 00 00 E8 00 04 00 Robert Muldoon ID Card
+
+### Ship
+
+#### Sub Level 1 (Ship_SubLevel1_Entities.bin)
+- 917: 00 02 00 00 00 00 00 00 00 E8 00 0E 00 Dr. Wu ID Card
+
+#### Sub Level 3 (Ship_SubLevel3_Entities.bin)
+- 1F1F: 00 02 00 00 00 00 00 00 00 E8 00 02 00 Ellie Sattler ID Card
+
+### Visitor Center
+
+#### Ground Level (Ship_SubLevel1_Entities.bin)
+- A93: 00 02 00 00 00 00 00 00 00 E8 00 06 00 Alan Grant ID Card

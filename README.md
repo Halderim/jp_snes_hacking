@@ -1,5 +1,6 @@
 # jp_snes_hacking
 Findings about code, data and many other things in Jurassic Park for the SNES
+(All values are in Hex)
 
 # ID Cards
 Most ID Cards are located inside building only the Card of John Hammond is located outside of a Building

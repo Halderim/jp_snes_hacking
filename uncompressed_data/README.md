@@ -46,8 +46,8 @@ E9 00 - Chicken\
 EA 00 - Gas Granate\
 EB 00 - Shotgun Ammo\
 EC 00 - Darts\
-ED 00 - Rocket Ammo
-EE 00 - Battery
+ED 00 - Rocket Ammo\
+EE 00 - Battery\
 EF 00 - Gas Canister
 
 ## Items found so far in the data

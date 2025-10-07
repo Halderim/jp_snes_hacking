@@ -14,3 +14,4 @@ in the game data there are 24bit pointers to find the right data to load
 | Visitor Center Ground | A581C8 | A581C9 | A581CA | 42 CA A0 |
 | Visitor Center Floor 1 | A58234 | A58235 | A58236 | 94 CA A6 |
 | Visitor Center Roof | A58286 | A58287 | A58288 | 71 FB BF |
+| Visitor Center Sub1 | A582B0 | A582B1 | A582B2 | 17 EE A0 |

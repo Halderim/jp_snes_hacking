@@ -6,6 +6,8 @@ in the game data there are 24bit pointers to find the right data to load
 
 | Level | Hi | Lo | Bank | Original Pointer |
 |-------|----|----|------|------------------|
+| Beach Ground | A583C2 | A583C3 | A583C4 | AC EA A1 |
+| Beach Sub | A58389 | A5838A | A5838B | 71 DC A1 |
 | Raptorn Pen Entry | A58454 | A58455 | A58456 | 63 FB B6 |
 | Raptorn Pen Upper | A5847E | A5847F | A58480 | 07 FA A1 |
 | Raptorn Pen Ground | A584BC | A584BD | A584BE | A2 EB B5 |
